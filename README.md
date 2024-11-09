@@ -30,7 +30,7 @@ git checkout stable
 2. `cd cyrus-neovim-setup && cp nvim ~/.config/`
 3. Create aliases vim for neovim
 ```
-nano ~/.bashrc \n 
+nano ~/.bashrc  
 alias vim='nvim'
 ```
 4. Run neovim for the first time to install all the plugin, keymaps, etc.
