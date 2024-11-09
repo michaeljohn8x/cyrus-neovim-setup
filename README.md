@@ -22,7 +22,8 @@ git checkout stable`
 4. `make CMAKE_BUILD_TYPE=RelWithDebInfo`
 5. `sudo make install`
 # 3. Install nvim configuration
-1. Clone nvim config from this repo\\
+1. Clone nvim config from this repo
+
 `git clone https://github.com/michaeljohn8x/cyrus-neovim-setup.git`
 2. `cd cyrus-neovim-setup && cp nvim ~/.config/`
 3. Create aliases vim for neovim
