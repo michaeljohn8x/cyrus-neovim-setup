@@ -29,7 +29,9 @@ git checkout stable
 `git clone https://github.com/michaeljohn8x/cyrus-neovim-setup.git`
 2. `cd cyrus-neovim-setup && cp nvim ~/.config/`
 3. Create aliases vim for neovim
-`nano ~/.bashrc \n 
-alias vim='nvim'`
+```
+nano ~/.bashrc \n 
+alias vim='nvim'
+```
 4. Run neovim for the first time to install all the plugin, keymaps, etc.
 
