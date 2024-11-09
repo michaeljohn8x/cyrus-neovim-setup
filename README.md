@@ -17,8 +17,11 @@ $ sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
 # 2.Install Neovim
 1. Install [build prerequisites](https://github.com/neovim/neovim/blob/master/BUILD.md#build-prerequisites) on your system
 2. `git clone https://github.com/neovim/neovim`
-3. `cd neovim
-git checkout stable`
+3. 
+```
+cd neovim  
+git checkout stable
+```
 4. `make CMAKE_BUILD_TYPE=RelWithDebInfo`
 5. `sudo make install`
 # 3. Install nvim configuration
@@ -26,7 +29,9 @@ git checkout stable`
 `git clone https://github.com/michaeljohn8x/cyrus-neovim-setup.git`
 2. `cd cyrus-neovim-setup && cp nvim ~/.config/`
 3. Create aliases vim for neovim
-`nano ~/.bashrc
-alias vim='nvim'`
+```
+nano ~/.bashrc  
+alias vim='nvim'
+```
 4. Run neovim for the first time to install all the plugin, keymaps, etc.
 
